@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My new portfolio</title>
+    <!-- font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/ad18160eab.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav section start-->
+    <div id="container">
+      <section id="header">
+        <div class="container">
+          <nav>
+            <h2 class="logo-text">port<span>folio</span></h2>
+            <ul id="sidemenu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#work">My work</a></li>
+              <li><a href="#contact">contact</a></li>
+              <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+        </div>
+      </section>
+      <!-- nav section end-->
+
+      <!-- home section -->
+      <section id="home" class="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-col-1">
+              <h1>I'm <span>Nima C S</span></h1>
+              <p>
+                This is my official portfolio website to describe all details
+                and work experiance in web development
+              </p>
+              <a href="">Download CV</a>
+            </div>
+
+            <div class="home-col-2">
+              <img src="https://i.postimg.cc/d1pN2BKx/newPhoto.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- home section End -->
+
+      <!-- about section -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="heading">
+            <h2 class="title">&nbsp; About me &nbsp;</h2>
+          </div>
+
+          <div class="row">
+            <div class="about-col-1">
+              <h3>Introduction</h3>
+              <p>
+                I am a MEAN Full Stack Web developer, currently living in
+                thrissur, Kerala. I completed my post graduation in computer
+                applications from Calicut University. I am Passionated about web
+                development
+                <br>
+                <br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi delectus praesentium odit, dolore tempora culpa cum voluptatum dolores, dolorum fugiat expedita assumenda optio facilis, vel adipisci aperiam ea. Modi, quod.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis obcaecati quae accusamus delectus molestiae quisquam odio nisi incidunt eaque nam. Dolorum, voluptatem officia laboriosam in rerum possimus culpa! Ducimus, quod?
+
+              </p>
+            </div>
+
+            <div class="about-col-2">
+              <div class="tabs">
+                <div class="tab-header">
+                  <div class="active">Skills</div>
+                  <div class="">Education</div>
+                </div>
+                <div class="tab-indicator"></div>
+                <div class="tab-body">
+                  <div class="tab-content active">
+                    <!-- bar 1-->
+                    <div class="bar-box">
+                      <h3>html</h3>
+                      <span>90%</span>
+                      <div class="light-bar"></div>
+                      <div class="percent-bar html-bar"></div>
+                    </div>
+                    <!-- bar 2-->
+                    <div class="bar-box">
+                      <h3>css</h3>
+                      <span>80%</span>
+                      <div class="light-bar"></div>
+                      <div class="percent-bar css-bar"></div>
+                    </div>
+                    <!-- bar 3-->
+                    <div class="bar-box">
+                      <h3>javascript</h3>
+                      <span>74%</span>
+                      <div class="light-bar"></div>
+                      <div class="percent-bar javascript-bar"></div>
+                    </div>
+                    <!-- bar 4-->
+                    <div class="bar-box">
+                      <h3>Angular</h3>
+                      <span>70%</span>
+                      <div class="light-bar"></div>
+                      <div class="percent-bar angular-bar"></div>
+                    </div>
+                    <!-- bar 5 -->
+                    <div class="bar-box">
+                      <h3>Node js, express</h3>
+                      <span>60%</span>
+                      <div class="light-bar"></div>
+                      <div class="percent-bar angular-bar"></div>
+                    </div>
+                  </div>
+
+                  <div id="" class="tab-content">
+                    <div class="qualification">
+                      <h4>
+                        Master of computer Applications - 71%
+                        <span><br />08/2016 - 12/2019</span>
+                      </h4>
+                      <p>CCSIT Kuttippuram</p>
+                    </div>
+
+                    <div class="qualification">
+                      <h4>
+                        Bachelor of computer Applications - 66.5%
+                        <span
+                          ><br />
+                          07/2013 - 4/2016</span
+                        >
+                      </h4>
+                      <p>Mar Dionysius college Pazhanji</p>
+                    </div>
+
+                    <div class="qualification">
+                      <h4>
+                        Higher Secondary - 81%
+                        <span
+                          ><br />
+                          06/2011 - 04/2013</span
+                        >
+                      </h4>
+                      <p>HSS Peringode</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about section End-->
+
+      <!-- work section -->
+      <section id="work" class="work1">
+        <div class="container1">
+          <div class="heading">
+            <h2 class="title">&nbsp; &nbsp; My work &nbsp; &nbsp;</h2>
+          </div>
+          <div class="container">
+            <div class="work-list">
+              <!-- Restuarant application -->
+              <div class="work">
+                <img src="https://i.postimg.cc/13Fr67mN/Untitled.jpg" alt="" />
+                <div class="layer">
+                  <h3>Restuarant Application</h3>
+                  <p>
+                    This is a CRUD angular web application with json server
+                    backend.
+                    <br />
+                    Customers can select and view restuarant details.Admin can
+                    add new restuarant and update and delete resturant details
+                  </p>
+                  <a href="#" target="_blank"
+                    >Read More :&nbsp;<i class="fas fa-external-link-alt"></i
+                    >&nbsp;&nbsp;http://127.0.0.1:5501/index.html</a
+                  >
+                </div>
+              </div>
+
+              <!-- Ecommerce application -->
+              <div class="work">
+                <img src="https://i.postimg.cc/MHhjpxj3/Untitled1.jpg" alt="" />
+                <div class="layer">
+                  <h3>Ecommerce application</h3>
+                  <p>
+                    It is an ecommerce app with angular as a frontend and node
+                    js express js as backend along with mongodb as the database.
+                    <br />
+                    Customers can add products to cart and wishlist.
+                  </p>
+                  <a href="#" target="_blank"
+                    >Read More :&nbsp;<i class="fas fa-external-link-alt"></i
+                    >&nbsp;&nbsp;http://127.0.0.1:5501/index.html</a
+                  >
+                </div>
+              </div>
+
+              <!-- Dashboard -->
+              <div class="work">
+                <img src="https://i.postimg.cc/kXmbzMqD/dashboard.jpg" alt="" />
+                <div class="layer">
+                  <h3>Dashboard</h3>
+                  <p>
+                    It is an angular dashboard using angular materials,
+                    highcharts, flex-layout and piechart.
+                  </p>
+                  <a href="#" target="_blank"
+                    >Read More :&nbsp;<i class="fas fa-external-link-alt"></i
+                    >&nbsp;&nbsp;http://127.0.0.1:5501/index.html</a
+                  >
+                </div>
+              </div>
+
+              <!-- Bank Application -->
+              <div class="work">
+                <img src="https://i.postimg.cc/TPmM3vFK/Untitled4.jpg" alt="" />
+                <div class="layer">
+                  <h3>Bank Application</h3>
+                  <p>
+                    The application has login page and registration page. it is
+                    capable of recording the deposite and withdrawel
+                    transaction.
+                    <br />
+                    JWT is used for user authentication. Here node js and
+                    express js is used as backend along with Mongodb.
+                  </p>
+                  <a href="#" target="_blank"
+                    >Read More :&nbsp;<i class="fas fa-external-link-alt"></i
+                    >&nbsp;&nbsp;http://127.0.0.1:5501/index.html</a
+                  >
+                </div>
+              </div>
+
+              <!-- Food ordering Application -->
+              <div class="work">
+                <img src="https://i.postimg.cc/76DcPGSR/Untitled3.jpg" alt="" />
+                <div class="layer">
+                  <h3>Food order Application</h3>
+                  <p>
+                    It is an food order app with angular as a frontend and node
+                    js express js as backend along with mongodb as the database.
+                    <br />
+                    Customers can add food to cart and booking facility for
+                    tables.
+                  </p>
+                  <a href="#" target="_blank"
+                    >Read More :&nbsp;<i class="fas fa-external-link-alt"></i
+                    >&nbsp;&nbsp;http://127.0.0.1:5501/index.html</a
+                  >
+                </div>
+              </div>
+
+              <!-- react netflix -->
+              <div class="work">
+                <img src="https://i.postimg.cc/T2tSGP1k/Untitled5.jpg" alt="" />
+                <div class="layer">
+                  <h3>react netflix</h3>
+                  <p>it is a netflix clone using react js with API.</p>
+                  <a href="#" target="_blank"
+                    >Read More :&nbsp;<i class="fas fa-external-link-alt"></i
+                    >&nbsp;&nbsp;http://127.0.0.1:5501/index.html</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- work section End-->
+
+      <!-- contact section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="heading">
+            <h2 class="title">&nbsp; &nbsp; My Contact &nbsp; &nbsp;</h2>
+          </div>
+          <div class="icons">
+            <div class="icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- contact section End -->
+
+    <!-- footer section -->
+    <footer>
+      <div class="container">
+        <p style="text-align: center">
+          &copy; My Portfolio website 2023, All rights reserved &reg; NIMA C S
+        </p>
+        <div class="uparrow" style="float: right">
+          <a href="#container">
+            <i class="fa-solid fa-arrow-up fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer section End -->
+
+    <script src="./main.js"></script>
+  </body>
+</html>
